@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "rows": 401,
+  "unique_ids": 401,
+  "max_abs_difference": 2.842170943040401e-14,
+  "official_sha256": "dc053e527b53ce7a4ed158e4c4c1fb4340c8e41972a081524f8f58c07a9be492",
+  "reproduced_sha256": "351e6e1a2aedda020c8d1ad7aabbddea631dcd8f62f460d36dc5584afe4c0085",
+  "finite": true,
+  "sbp_above_dbp": true
+}

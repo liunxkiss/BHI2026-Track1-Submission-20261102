@@ -1,0 +1,46 @@
+{
+  "schema": "BHI_PUBLIC_RECEIPT_SOFTFULL900_20261026",
+  "source": "Kaggle submissions page",
+  "status": "Complete",
+  "submitted_at": "2026-10-26T13:27:26+08:00",
+  "candidate": "BHI_expert_softfull900_safe_20261026.csv",
+  "candidate_sha256": "dc053e527b53ce7a4ed158e4c4c1fb4340c8e41972a081524f8f58c07a9be492",
+  "public_score": 0.10285,
+  "previous_best_public_score": 0.10282,
+  "public_score_improvement": 0.00003,
+  "implied_mae": 8.722897423432183,
+  "previous_best_implied_mae": 8.725734292939118,
+  "implied_mae_improvement": 0.002836869506934292,
+  "new_public_best": true,
+  "submission_description": "",
+  "model": {
+    "scope": "full900 soft endpoint residual transplanted onto the prior public-best candidate",
+    "sbp_beta": 0.15,
+    "dbp_beta": 0.4,
+    "mode": "controlled soft residual; no hard expert replacement",
+    "oof_general_weighted_mae": 6.98127485729958,
+    "oof_soft_weighted_mae": 6.96038605960504,
+    "oof_improvement": 0.0208887976945398
+  },
+  "remaining_submissions_after_trial": 0,
+  "final_score_selection_state": "0 of 2 manually selected; Kaggle states it automatically selects the best submission when fewer than 2 are selected",
+  "evidence": {
+    "rows": 401,
+    "columns": [
+      "ID",
+      "Predicted_SBP",
+      "Predicted_DBP"
+    ],
+    "invalid_sbp_le_dbp": 0,
+    "test_labels_read": false,
+    "singleton_inference": true,
+    "bootstrap_ci95_improvement": [
+      0.004619859760437228,
+      0.036716032473577236
+    ],
+    "fraction_positive_bootstrap": 0.994,
+    "leave_one_group_out_improvement_min": 0.019790851616669065,
+    "leave_one_group_out_improvement_max": 0.02221586855028658
+  },
+  "note": "The public improvement is positive but small. The internal gain did transfer, but only weakly; retain 0.10285 as the new public best and keep the prior 0.10282 candidate as a protected fallback."
+}

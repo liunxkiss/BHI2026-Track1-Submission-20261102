@@ -1,0 +1,10 @@
+{
+  "team_name": "haha_kiss",
+  "contact_email": "lin5891396lin@gmail.com",
+  "track": "Track 1",
+  "method_class": "endpoint router with multi-expert residual models",
+  "public_score": 0.10285,
+  "submission_file": "submission/BHI_expert_softfull900_safe_20261026.csv",
+  "test_labels_read": false,
+  "external_data_used": false
+}
